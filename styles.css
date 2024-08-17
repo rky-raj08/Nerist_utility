@@ -1,0 +1,106 @@
+
+div.Header{
+    text-align:center;
+}
+
+div.Header h1{
+    font-size: 50px;
+    color:rgb(48, 20, 206);
+    padding:0%;
+    margin:0%;
+}
+div.Header p{
+    font-size: 40px;
+    font-style: italic;
+    color:rgb(18, 225, 10);
+}
+
+body {
+    /*background-color: #f7f9fc;
+    display: flex;
+    justify-content: center;
+   align-items: center;
+    height: 90vh;
+    background-image: linear-gradient(120deg, #3498db, #8e44ad);*/
+    background-size: cover;
+    background-image: url(https://images.saymedia-content.com/.image/t_share/MTkzODAzNTgyODUxMDY1MzI4/cool-css-backgrounds.jpg);
+}
+
+.login-container {
+    background-color:white;
+    padding: 40px 60px;
+    margin: auto; /* After doing this the box came into middle*/
+    margin-top: 100px;
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+}
+
+.login-form h2 {
+    margin-bottom: 25px;
+    color: #333333;
+    font-weight: 500;
+    text-align: center;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+.input-group label {
+    display: block;
+    font-weight:bolder;
+    margin-bottom: 8px;
+    font-weight:bold;
+    color: #333333;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+    color: #333;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+.input-group input:focus {
+    border-color: #3498db;
+}
+
+.btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #2980b9;
+}
+
+.register-link {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.register-link a {
+    color: #3498db;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.register-link a:hover {
+    color: #2980b9;
+}
